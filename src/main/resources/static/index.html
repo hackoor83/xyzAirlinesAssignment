@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <h1 class="display-3">Welcome to XYZ Airlines</h1>
+        <p class="lead">You can manage the airplanes from here.</p>
+        <hr class="my-4">
+        <p>Select the airport location:</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" id="amsterdamButton" role="button">Amsterdam</a>
+            <a class="btn btn-primary btn-lg" id="londonButton" role="button">London</a>
+            <a class="btn btn-primary btn-lg" id="parisButton" role="button">Paris</a>
+            <a class="btn btn-primary btn-lg" id="stockholmButton" role="button">Stockholm</a>
+            <a class="btn btn-primary btn-lg" id="berlinButton" role="button">Berlin</a>
+        </p>
+    </div>
+
+    <div class="container">
+        <table id="listAirplanesTable">
+            <thead>
+                <th>ID</th>
+                <th>Fuel amount</th>
+                <th>Current location</th>
+                <th></th>
+                <th></th>
+
+            </thead>
+        </table>
+    </div>
+
+</body>
+
+</html>
